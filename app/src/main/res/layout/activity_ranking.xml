@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RankingActivity">
+
+    <TextView
+        android:id="@+id/titleResultados2"
+        android:layout_width="309dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="91dp"
+        android:text="Ranking"
+        android:textAlignment="center"
+        android:textColor="#833AB7"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleCategoria"
+        android:layout_width="304dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="91dp"
+        android:text="Ranking"
+        android:textAlignment="center"
+        android:textColor="#833AB7"
+        android:textSize="34sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleResultados2" />
+
+    <TextView
+        android:id="@+id/rankingNombres"
+        android:layout_width="185dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#833AB7"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/separacionMenu3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleNombrePlayerRanking" />
+
+    <TextView
+        android:id="@+id/rankingTiempo"
+        android:layout_width="90dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#833AB7"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleAciertosRanking2" />
+
+    <TextView
+        android:id="@+id/titleAciertosRanking2"
+        android:layout_width="80dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/timeTextRanking"
+        android:textAlignment="center"
+        android:textColor="#833AB7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/separacionMenu2" />
+
+    <View
+        android:id="@+id/separacionMenu5"
+        android:layout_width="11dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="4dp"
+        android:background="#833AB7"
+        app:layout_constraintEnd_toStartOf="@+id/rankingTiempo"
+        app:layout_constraintTop_toBottomOf="@+id/titleAciertosRanking"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/rankingAciertos"
+        android:layout_width="81dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#833AB7"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/separacionMenu5"
+        app:layout_constraintTop_toBottomOf="@+id/titleAciertosRanking" />
+
+    <TextView
+        android:id="@+id/titleAciertosRanking"
+        android:layout_width="80dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/correctasTextRanking"
+        android:textAlignment="center"
+        android:textColor="#833AB7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/titleAciertosRanking2"
+        app:layout_constraintTop_toBottomOf="@+id/separacionMenu2" />
+
+    <View
+        android:id="@+id/separacionMenu3"
+        android:layout_width="11dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="4dp"
+        android:background="#833AB7"
+        app:layout_constraintEnd_toStartOf="@+id/rankingAciertos"
+        app:layout_constraintTop_toBottomOf="@+id/titleAciertosRanking"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/titleNombrePlayerRanking"
+        android:layout_width="187dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/playerNameTextRanking"
+        android:textAlignment="center"
+        android:textColor="#833AB7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/titleAciertosRanking"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/separacionMenu2" />
+
+    <Spinner
+        android:id="@+id/spinnerCategoriasRanking"
+        android:layout_width="369dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleResultados2" />
+
+    <View
+        android:id="@+id/separacionMenu2"
+        android:layout_width="match_parent"
+        android:layout_height="13dp"
+        android:layout_marginTop="147dp"
+        android:background="#833AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonRankingMenu"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="110dp"
+        android:backgroundTint="#833AB7"
+        android:text="@string/buttonMenuRanking"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/separacionMenu3"
+        app:layout_constraintVertical_bias="0.604" />
+</androidx.constraintlayout.widget.ConstraintLayout>

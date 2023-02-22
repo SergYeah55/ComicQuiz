@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ComicQuiz</string>
+    <string name="startGame">Empezar</string>
+    <string name="exitButton">Salir</string>
+    <string name="numQuestionText">Número de preguntas:</string>
+    <string name="logo">Logo</string>
+    <string name="textPregunta">Pregunta</string>
+    <string name="buttonSiguiente">Siguiente</string>
+    <string name="buttonAnterior">Atrás</string>
+    <string name="titleResultados">Resultados</string>
+    <string name="textCorrectas">"Aciertos: "</string>
+    <string name="textIncorrectas">"Fallos: "</string>
+    <string name="mensajeCorrecto">¡Correcto!</string>
+    <string name="mensajeIncorrecto">Respuesta incorrecta</string>
+
+    <string-array name="preguntas">
+        <item>¿Quién de estos personajes es Tony Stark?;ni;;a1;*a2;a3;a4
+        </item>
+        <item>¿Cuál es considerada la primera familia de Marvel?;n;i;b1;b2;b3;*b4
+        </item>
+        <item>¿Qué tipo de radiación le otorga los poderes de Hulk a Bruce Banner?;a;t;*Gamma;Omega;Beta;Sigma
+        </item>
+        <item>¿Quién fué el último en unirse a los Vengadores?;n;i;c1;c2;*c3;c4
+        </item>
+        <item>¿Cuál es el metal más poderoso en el Universo Marvel?;n;t;Acerium;Vibranium;Metallium;*Adamantium
+        </item>
+        <item>¿Cuántos cuerpos de Lanterns existen en DC Cómics?;n;t;1;*9;3;7
+        </item>
+        <item>¿Cuál es el nombre del primer Flash de la historia de DC?;n;t;Wally West;Barry Allen;*Jay Garrick;Bart Allen
+        </item>
+        <item>¿Cuál de las siguientes hace vulnerable a Superman?;b;t;Adamantium;El color amarillo;*La magia;Nada
+        </item>
+        <item>¿Cuál es el superpoder de Robin?;c;t;Super Fuerza;Super Agilidad;Super Velocidad;*Ninguno
+        </item>
+        <item>¿Quién es este importante personaje para Batman?;d;t;*Alfred Pennyworth;Alfred Chapman;Alfred Campbell;Alfred Griffiths
+        </item>
+        <item>¿Cómo consigue Saitama sus poderes?;e;t;Fue un experimento del gobierno;*100 flexiones, 100 abdominales, 100 sentadillas y 10km al día;Es un extraterrestre de Namek;Es un humano mutante
+        </item>
+        <item>¿Cuál es el manga más vendido de la historia?;n;i;*d1;d2;d3;d4
+        </item>
+        <item>¿Cuál es este importante distrito en Ataque a los Titanes?;f;t;Monzen;*Shiganshina;Trost;Holst
+        </item>
+        <item>¿Quién es este personaje de Guardianes de la Noche (Kimetsu no Yaiba)?;g;t;Zenitsu Agatsuma;Kyojuro Rengoku;*Giyuu Tomioka;Tanjiro Kamado
+        </item>
+        <item>¿Cuál es considerado el manga más largo de la historia?;n;t;Hajime no Ippo;One Piece;Detective
+            Conan;*Golgo 13
+        </item>
+    </string-array>
+    <string name="botonReinicio">Reiniciar</string>
+    <string name="botonSalir">Salir</string>
+    <string name="mensajeSalida">¡Vuelve pronto!</string>
+    <string name="verCorrecta">Mostrar respuesta correcta al fallar</string>
+    <string name="mensajeIncorrectoConCorrecta">Respuesta incorrecta, la respuesta correcta era (</string>
+    <string name="mensajeIncorrectoConImagenCorrecta">"Respuesta incorrecta, la respuesta correcta era la imagen "</string>
+    <string name="credits">Créditos</string>
+    <string name="startGameButton">Empezar juego</string>
+    <string name="spinnerCategoria">Categoría</string>
+    <string name="textTiempoTotal">Tu tiempo:</string>
+    <string name="enterNameText">Introduce tu nombre:</string>
+    <string name="matchName">Nombre:</string>
+    <string name="creditsText">Créditos</string>
+    <string name="textCredits1">Un juego hecho por:</string>
+    <string name="buttonMenuRanking">Menú Principal</string>
+    <string name="playerNameTextRanking">Nombre jugador</string>
+    <string name="correctasTextRanking">Aciertos</string>
+    <string name="timeTextRanking">Tiempo</string>
+    <string name="mensajeNoName">Atención: no has introducido un nombre, ¿quieres continuar?</string>
+    <string name="textSi">Si</string>
+    <string name="textNo">No</string>
+
+</resources>

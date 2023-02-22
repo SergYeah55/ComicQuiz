@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultadosActivity">
+
+    <Button
+        android:id="@+id/botonRanking"
+        android:layout_width="133dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#833AB7"
+        android:text="Ranking"
+        android:textSize="16sp"
+        app:iconTint="#833AB7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTiempoTotal" />
+
+    <TextView
+        android:id="@+id/titleResultados"
+        android:layout_width="309dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="91dp"
+        android:text="@string/titleResultados"
+        android:textAlignment="center"
+        android:textColor="#833AB7"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/barra"
+        android:layout_width="match_parent"
+        android:layout_height="13dp"
+        android:layout_marginTop="32dp"
+        android:background="#833AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleResultados" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="144dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="150dp"
+        android:text="@string/matchName"
+        android:textAlignment="center"
+        android:textColor="#833AB7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barra" />
+
+    <TextView
+        android:id="@+id/textIncorrectas"
+        android:layout_width="158dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="140dp"
+        android:text="@string/textIncorrectas"
+        android:textAlignment="textEnd"
+        android:textColor="#833AB7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textCorrectas" />
+
+    <TextView
+        android:id="@+id/textCorrectas"
+        android:layout_width="158dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="140dp"
+        android:text="@string/textCorrectas"
+        android:textAlignment="textEnd"
+        android:textColor="#833AB7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameShow" />
+
+    <TextView
+        android:id="@+id/contCorrectas"
+        android:layout_width="89dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="105dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#833AB7"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textCorrectas"
+        app:layout_constraintTop_toBottomOf="@+id/nameShow" />
+
+    <TextView
+        android:id="@+id/contIncorrectas"
+        android:layout_width="90dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="105dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#833AB7"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textIncorrectas"
+        app:layout_constraintTop_toBottomOf="@+id/contCorrectas" />
+
+    <TextView
+        android:id="@+id/textTiempoTotal"
+        android:layout_width="129dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/textTiempoTotal"
+        android:textAlignment="textEnd"
+        android:textColor="#833AB7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.273"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textIncorrectas" />
+
+    <TextView
+        android:id="@+id/contTiempoTotal"
+        android:layout_width="90dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#833AB7"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textTiempoTotal"
+        app:layout_constraintTop_toBottomOf="@+id/contIncorrectas" />
+
+    <TextView
+        android:id="@+id/nameShow"
+        android:layout_width="324dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="45dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#833AB7"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textName" />
+
+    <Button
+        android:id="@+id/botonReinicio"
+        android:layout_width="133dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#833AB7"
+        android:text="@string/buttonMenuRanking"
+        android:textSize="16sp"
+        app:iconTint="#833AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toEndOf="@+id/botonRanking"
+        app:layout_constraintTop_toBottomOf="@+id/contTiempoTotal" />
+
+    <Button
+        android:id="@+id/botonSalir"
+        android:layout_width="148dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="#833AB7"
+        android:text="@string/botonSalir"
+        android:textSize="24sp"
+        app:iconTint="#833AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonReinicio" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

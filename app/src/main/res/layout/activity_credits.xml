@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreditsActivity">
+
+    <TextView
+        android:id="@+id/textCredits"
+        android:layout_width="142dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="20dp"
+        android:text="Raúl Galán Castillo"
+        android:textAlignment="center"
+        android:textColor="#833AB7"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textCredits1" />
+
+    <TextView
+        android:id="@+id/textCredits2"
+        android:layout_width="170dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="20dp"
+        android:text="Sergio Benitez Vicente"
+        android:textAlignment="center"
+        android:textColor="#833AB7"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toEndOf="@+id/textCredits"
+        app:layout_constraintTop_toBottomOf="@+id/textCredits1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textCredits1"
+        android:layout_width="295dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/textCredits1"
+        android:textAlignment="center"
+        android:textColor="#833AB7"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleCreditos" />
+
+    <TextView
+        android:id="@+id/titleCreditos"
+        android:layout_width="307dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="91dp"
+        android:text="@string/creditsText"
+        android:textAlignment="center"
+        android:textColor="#833AB7"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="171dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#833AB7"
+        android:text="@string/buttonAnterior"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="179dp"
+        android:layout_height="169dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textCredits"
+        app:srcCompat="@drawable/stark_raul" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="183dp"
+        android:layout_height="169dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textCredits2"
+        app:srcCompat="@drawable/saitama_sergio" />
+</androidx.constraintlayout.widget.ConstraintLayout>

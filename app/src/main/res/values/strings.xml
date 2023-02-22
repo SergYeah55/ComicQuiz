@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">ComicQuiz</string>
+    <string name="startGame">Start</string>
+    <string name="exitButton">Exit</string>
+    <string name="numQuestionText">Number of questions:</string>
+    <string name="logo">Logo</string>
+    <string name="textPregunta">Question</string>
+    <string name="buttonSiguiente">Next</string>
+    <string name="buttonAnterior">Back</string>
+    <string name="titleResultados">Results</string>
+    <string name="textCorrectas">Correct answers: </string>
+    <string name="textIncorrectas">Wrong answers: </string>
+    <string name="mensajeCorrecto">Correct!</string>
+    <string name="mensajeIncorrecto">Wrong answer</string>
+    <string name="textSi">Yes</string>
+    <string name="textNo">No</string>
+    <string name="mensajeNoName">Atention: You did not choose a name, do you want to continue?</string>
+    <string name="mensajeIncorrectoConCorrecta">Wrong answer, the correct answer was (</string>
+    <string name="mensajeIncorrectoConImagenCorrecta">Wrong answer, the correct answer was the image </string>
+    <string name="botonReinicio">Retry</string>
+    <string name="botonSalir">Exit</string>
+    <string name="mensajeSalida">Come back soon!</string>
+    <string name="verCorrecta">Show correct answer in fail</string>
+    <string name="credits">Credits</string>
+    <string name="startGameButton">Start game</string>
+    <string name="spinnerCategoria">Category</string>
+    <string name="textTiempoTotal">Your time:</string>
+    <string name="enterNameText">Enter your name:</string>
+    <string name="matchName">Your name:</string>
+    <string name="creditsText">Credits</string>
+    <string name="textCredits1">A game made by:</string>
+    <string name="buttonMenuRanking">Main Menu</string>
+    <string name="playerNameTextRanking">Player name</string>
+    <string name="correctasTextRanking">Hits</string>
+    <string name="timeTextRanking">Time</string>
+
+    <array name="preguntas">
+        <item>Who of these characters is Tony
+            Stark?;n;i;a1;*a2;a3;a4 <!--Captain America;*Iron Man;Hulk;Ant-Man-->
+        </item>
+        <item>Which is considered the first Marvel
+            family?;n;i;b1;b2;b3;*b4 <!--X-Men;Inhumans;Avengers;*Fantastic Four-->
+        </item>
+        <item>Which type of radiation gives Bruce Banner the Hulk
+            powers?;a;t;*Gamma;Omega;Beta;Sigma
+        </item>
+        <item>Who of the following later became part of the
+            Avengers?;n;i;c1;c2;*c3;c4 <!--Iron Man;The Wasp;*Captain America;Thor-->
+        </item>
+        <item>What is the most powerful metal in Marvel
+            Universe?;n;t;Steellium;Vibranium;Ironium;*Adamantium
+        </item>
+        <item>How many Lantern corps exist in DC Comics?;n;t;1;*9;3;7
+        </item>
+        <item>What is the name of the first Flash in DC history?;n;t;Wally West;Barry Allen;*Jay
+            Garrick;Bart Allen
+        </item>
+        <item>Which of the following things makes Superman vulnerable?;b;t;Adamantium;Yellow
+            color;*Magic;Nothing
+        </item>
+        <item>What is Robins super power?;c;t;Super Strength;Super Agility;Super Velocity;*None
+        </item>
+        <item>Who is this importan character for Batman?;d;t;*Alfred Pennyworth;Alfred
+            Chapman;Alfred Campbell;Alfred Griffiths
+        </item>
+        <item>How Saitama gets his powers?;e;t;He was a gobernment experiment;*100 push-ups, 100
+            sit-ups, 100 squats and 10 km daily;He is an alien from Namek;He is a mutant
+        </item>
+        <item>What is the most sold manga in the
+            history?;n;i;*d1;d2;d3;d4<!--*One Piece;Dragon Ball;Attack on Titan;Naruto-->
+        </item>
+        <item>Whats the name of this important district in Attack on
+            Titan?;f;t;Monzen;*Shiganshina;Trost;Holst
+        </item>
+        <item>Who is this character in Demon Slayer (Kimetsu no Yaiba)?;g;t;Zenitsu Agatsuma;Kyojuro
+            Rengoku;*Giyuu Tomioka;Tanjiro Kamado
+        </item>
+        <item>What is the longest manga of the history?;n;t;Hajime no Ippo;One Piece;Detective
+            Conan;*Golgo 13
+        </item>
+    </array>
+
+</resources>
