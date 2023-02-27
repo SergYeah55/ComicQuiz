@@ -34,7 +34,6 @@ To understand app's flow, it's necessary to explain every interfaces that users 
 
 // IMAGEN
 
-All of this app is the result of first work with Android Studio. It's a very simple app, but it's enough to show a good management of the IDE. This is able to show the main utilities that a Android app has to cover without any bugs and very robust.
 
 ## Credits
 
