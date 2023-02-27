@@ -12,28 +12,35 @@ To understand app's flow, it's necessary to explain every interfaces that users 
 
 1- The first interface is very simple. This contains a brief list of functionalities of app: start a new game, ranking screen with all points saved in the phone, credits scene with the creators of this app and the option to close the app.
 
-//IMAGEN 1
+<p align="center"> <img width="282" height="517" src="https://raw.githubusercontent.com/SergYeah55/ComicQuiz/master/IMAGES/IMG1.jpg"></p>
 
 2- For start with the next simple screen, the first to analyze is Credits Interface. With two images, the app show to users the names of creators and a funny image of each worker, with the option to return to first menu.
 
-//IMAGEN 2
+<p align="center"> <img width="282" height="517" src="https://raw.githubusercontent.com/SergYeah55/ComicQuiz/master/IMAGES/IMG2.jpg"></p>
 
 3- To know what is the user that has the best score, it's necessary a Ranking Interface. It has an option to see every category of quiz that are implemented. Each category show the first five names of player, his score and his time. All elements of this ranking are ordered by score, but when there is a draw, it order them by the time.
 
-//IMAGEN 3
+<p align="center"> <img width="282" height="517" src="https://raw.githubusercontent.com/SergYeah55/ComicQuiz/master/IMAGES/IMG3.jpg"></p>
 
 4- Before start a new game, users must to choose three important elements: the username, the number of questions and the category of questions. This is relevant for the future questions because the score will be show in one ranking or another. Finally, users must choose between see the correct answer after they respond or not.
 
-//IMAGEN 4
+<p align="center"> <img width="282" height="517" src="https://raw.githubusercontent.com/SergYeah55/ComicQuiz/master/IMAGES/IMG4.jpg"></p>
 
 5- There are four types of question in the quiz: text questions with text answers, text questions about an image with text answers, text questions with image answers and video or audio questions with text answers. If appears one type of question or another is completely random and every one score the same count of points. The structure is similar for each type, and appear with the same form.
 
-// IMAGENES
+<p align="center"> 
+  <img width="282" height="517" src="https://raw.githubusercontent.com/SergYeah55/ComicQuiz/master/IMAGES/IMG5_1.jpg">
+  <img width="282" height="517" src="https://raw.githubusercontent.com/SergYeah55/ComicQuiz/master/IMAGES/IMG5_2.jpg">
+</p>
+
+<p align="center"> 
+  <img width="282" height="517" src="https://raw.githubusercontent.com/SergYeah55/ComicQuiz/master/IMAGES/IMG5_3.jpg">
+  <img width="282" height="517" src="https://raw.githubusercontent.com/SergYeah55/ComicQuiz/master/IMAGES/IMG5_4.jpg">
+</p>
 
 6- When a game ends, users can see the puntuation and the time spent in this try. In addition, they have three options of buttons: close the app, see the ranking of this category and return to the main menu.
 
-// IMAGEN
-
+<p align="center"> <img width="282" height="517" src="https://raw.githubusercontent.com/SergYeah55/ComicQuiz/master/IMAGES/IMG6.jpg"></p>
 
 ## Credits
 
